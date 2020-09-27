@@ -87,7 +87,7 @@ from datetime import datetime
 try:
   function()
 except Exception as ex:
-  print(f"{datetime.now()} | Module Exception | (John Doe):")
+  print(f"{datetime.now()} | Module Exception | (John Doe): {ex}")
 ``` 
 -----------
 ## Exceptions and error handling

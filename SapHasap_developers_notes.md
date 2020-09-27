@@ -81,6 +81,14 @@ if request.method == 'GET':
   }
   return response
 ```
++ Put Datetime, Description, [optional: Name] to make logging better and figure the issue faster
+```python
+from datetime import datetime
+try:
+  function()
+except Exception as ex:
+  print(f"{datetime.now()} | Module Exception | (John Doe):")
+``` 
 -----------
 ## Exceptions and error handling
 + Always handle errors (database insertions, functions, etc.)
